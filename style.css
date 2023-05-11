@@ -4,8 +4,11 @@ body {
 
 #cabecalho {
   position: fixed;
+  color: white;
+  background-color: rgb(12, 159, 233);
+  width: 100%;
   top: 0;
-  margin-left: 80px;
+  text-align: center;
 }
 
 #minha_foto {
@@ -35,4 +38,9 @@ li {
 #instagram {
   display: block;
   margin-left: 70px;
+}
+
+article , aside {
+  width: 500px;
+  margin-left: 30px;
 }
